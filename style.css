@@ -1,0 +1,267 @@
+/* linear-gradient(to left, #4776E6, #8E54E9); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unica One', sans-serif;
+}
+
+:root {
+    --firstColor: #4776E6;
+    --secondColor: #8E54E9;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+#s1 {
+    color: aqua;
+}
+
+#s2 {
+    color: var(--firstColor);
+}
+
+.hero {
+    height: 91vh;
+    background-image: url(photos/home-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.hero .hero1 {
+    height: 100%;
+}
+
+
+
+.blur {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left, #4776e6a3, #8e54e97d);
+    position: absolute;
+}
+
+.bb {
+    background-color: aqua;
+}
+
+.bb:hover {
+    background-color: var(--firstColor);
+}
+
+section.middle {
+    height: 85vh;
+    background-color: black;
+    flex-direction: column;
+}
+
+.inside p:first-of-type {
+    color: blue;
+}
+
+.inside .dd {
+    color: white;
+    font-size: 13px;
+}
+
+.one {
+    background-image: url(photos/team-img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+
+}
+
+.two {
+    background-image: url(photos/team-img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.child1 {
+    background-color: #ffffffe3;
+    width: 100%;
+    text-align: center;
+}
+
+.hero5 {
+    background-color: aqua;
+    height: 60vh;
+}
+
+.hero5 .row div {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20%;
+}
+
+.cc {
+    background-color: black;
+}
+
+.hero6 {
+    height: 100%;
+    flex-direction: column;
+    background-color: black;
+}
+
+.hero6 p {
+    padding: 0 20%;
+}
+
+.hero6 .container {
+    height: 100%;
+}
+
+.hero7 {
+    background-color: rgb(0, 149, 249);
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.xxx {
+    background-color: white;
+    position: relative;
+    width: calc(90% /3);
+    margin-left: 1%;
+}
+
+.xxx .bbc {
+    position: absolute;
+    right: 33%;
+    bottom: -18px;
+    background-color: aqua;
+}
+
+.zz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.zzz {
+    height: 100%;
+    width: 100%;
+}
+
+.hero8 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(photos/newsletter-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blur2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00ffffb8;
+    flex-direction: column;
+}
+
+.bbs {
+    background-color: white;
+    color: aqua;
+}
+
+.ii {
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: none;
+    border-bottom: 3px solid white;
+    padding-top: 5px;
+    padding-right: 150px;
+}
+
+.ii::placeholder {
+    color: white;
+}
+
+.s h3::after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: 105px;
+    bottom: 0;
+}
+
+.ss h4::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+}
+
+
+footer {
+    background-color: rgb(26, 17, 17);
+    height: 35vh;
+}
+
+@media (max-width:767px) {
+    .zzz {
+        padding: 0;
+        margin-left: 10px;
+
+    }
+
+    .zz {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zz div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+
+    .inputs a {
+        margin-top: 20px;
+    }
+
+    .s h3::after {
+        content: "";
+        width: 60px;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        right: 78px;
+        bottom: 0;
+    }
+}
+
+/* input[type="file"] {
+    display: none;
+}
+
+.one {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+} */
